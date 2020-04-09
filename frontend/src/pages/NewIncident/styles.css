@@ -1,0 +1,59 @@
+.newincident-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newincident-container .content {
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px #bebebe;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newincident-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+.newincident-container .content section h1 {
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+.newincident-container .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+.newincident-container .content section a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size:  18px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: opacity 0.4s;
+}
+.newincident-container .content section a:hover {
+    opacity: 60%;
+}
+.newincident-container section.form form a svg{
+    margin-left: 10px;
+}
+.newincident-container .content form {
+    width: 100%;
+    max-width: 450px;
+}
+.newincident-container .content form input
+.newincident-container .content form textarea {
+    margin-top: 8px;
+}

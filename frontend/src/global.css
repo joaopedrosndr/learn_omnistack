@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,500i,600,600i,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 500 15px Montserrat, sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+input, button, textarea {
+    font: 500 18px Montserrat, sans-serif;
+}
+button {
+    cursor: pointer;
+}
+form input{
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 15px;
+    padding: 0 24px;
+}
+form textarea{
+    width: 100%;
+    min-height: 140px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 15px;
+    padding: 16px 24px;
+    line-height: 24px;
+    resize: vertical;
+}
+.button {
+    width: 100%;
+    height: 60px;
+    background: #e02041;
+    border: 0;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    transition: ease-in-out 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+}
+.button:hover{
+    filter: opacity(80%);
+}
+.back-link {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.back-link svg {
+    margin-right: 10px;
+}
